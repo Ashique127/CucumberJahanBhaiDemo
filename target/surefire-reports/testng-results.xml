@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-27T21:24:26 PDT" name="Surefire suite" finished-at="2021-06-27T21:24:42 PDT" duration-ms="16116">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunneeer.TestRunnerrrrrr@65fb9ffc]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-27T21:24:26 PDT" name="Surefire test" finished-at="2021-06-27T21:24:42 PDT" duration-ms="16116">
+      <class name="TestRunneeer.TestRunnerrrrrr">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRunneeer.TestRunnerrrrrr@65fb9ffc]" started-at="2021-06-27T21:24:26 PDT" name="setUpClass" finished-at="2021-06-27T21:24:26 PDT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunneeer.TestRunnerrrrrr@65fb9ffc]" started-at="2021-06-27T21:24:26 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-06-27T21:24:42 PDT" duration-ms="15608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Search functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunneeer.TestRunnerrrrrr@65fb9ffc]" started-at="2021-06-27T21:24:42 PDT" name="tearDownClass" finished-at="2021-06-27T21:24:42 PDT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunneeer.TestRunnerrrrrr -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
